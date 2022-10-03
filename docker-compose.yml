@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   clonebot:
-    image: ghcr.io/thecaduceus/clonebot-v2:main
+    image: ghcr.io/coss27/bot2736:sha256-9e55caf8ecfdd3546883d94db09da2d07be397a6a2bb5da0850178155da82186.sig
     container_name: clonebot
     environment:
       - CONFIG_FILE_URL=${CONFIG_FILE_URL}
